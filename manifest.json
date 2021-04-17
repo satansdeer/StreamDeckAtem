@@ -1,0 +1,54 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon", 
+      "Name": "Atem Set Source", 
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
+      "UUID": "com.satansdeer.atem.action.source"
+    },
+    {
+      "Icon": "actionIcon", 
+      "Name": "Atem Cut", 
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
+      "UUID": "com.satansdeer.atem.action.cut"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Maksim Ivanov", 
+  "CodePath": "code.html", 
+  "Description": "Control Atem Mini using Stream Deck", 
+  "Name": "Atem", 
+  "Icon": "pluginIcon", 
+  "URL": "https://www.elgato.com/gaming/stream-deck", 
+  "Version": "1.0",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
